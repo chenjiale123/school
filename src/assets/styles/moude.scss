@@ -1,0 +1,71 @@
+.el-slider {
+    width: 400px;
+    margin: 0 auto;
+    width: 56px!important;
+    margin-top: 44px;
+
+    .el-slider__runway {
+      height: 100%;
+      width: 56px!important;
+        margin: 0 auto;
+      background-color: RGBA(51, 68, 82, 1);
+    
+  
+
+
+       border-radius: 10px 10px 10px 10px;
+    
+      .el-slider__bar {
+        width: 56px;
+        background:RGBA(255, 175, 2, 1);
+        border-radius: 10px 10px 10px 10px;
+      }
+  
+      .el-slider__button-wrapper {
+        width: 103px;
+          height: 103px;
+      }
+        .el-slider__button {
+            position: relative;
+          width: 103px;
+          height: 103px;
+          margin: 0 auto;
+
+          border: none;
+          border-radius: 50%;
+          box-sizing: border-box;
+    
+          background: url(../../assets/img/detail/icon.png);
+          background-size: 100% 100%;
+        left: -4%;
+        }
+    }
+      .el-slider__stop {
+        width: 1px;
+        height: 31px;
+        border-radius: 0;
+        background-color: #DCDFE6;
+      }
+      .el-slider__marks-text {
+        color: #717171;
+        margin-top: 0;
+      }
+    
+    }
+
+    .el-input{
+      width: 95px;
+      height: 33px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .el-input_inner{
+      width: 95px;
+      height: 33px;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 5px;
+    }
+  
+  
